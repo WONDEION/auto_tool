@@ -1,12 +1,6 @@
 
 #include "file_operate.h"
 
-int main(int argc, char const *argv[])
-{
-	/* code */
-	return 0;
-}
-
 int file_goto_line(int file_fd,int line_num)
 {
 	int i = 1;

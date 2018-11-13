@@ -14,5 +14,11 @@
 #include <malloc.h>
 
 #define DIRECTORY_SIZE 8192
+#define FILE_NAME_SIZE 255
+
+int develop_dir(char* dir);
+int Path_analyse_get_homedir(char* dir);
+int Path_Analyse_get_nowdir(char* dir);
+int delete_lastlv_dir(char* directory);
 
 #endif
